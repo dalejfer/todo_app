@@ -10,7 +10,7 @@ def main():
 
     root = tk.Tk()
     root.iconbitmap(default=config.icono)
-    root.title("TODO")
+    root.title("TODO app")
     root.columnconfigure(0, weight=1)
     root.rowconfigure(0, weight=1)
     ui.Principal(root).grid(sticky=tk.NSEW)
